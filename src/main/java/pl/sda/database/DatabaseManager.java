@@ -8,7 +8,7 @@ public class DatabaseManager {
     private static final String DB_URL = "jdbc:mysql://localhost:3306?serverTimezone=UTC";
 
     private static final String USER = "root";
-    private static final String PASS = "Polska123!";
+    private static final String PASS = "***";
 
     private final Connection connection;
 
