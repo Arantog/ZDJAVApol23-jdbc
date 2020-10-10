@@ -26,7 +26,6 @@ public class EmployeeDao {
                     System.out.println("Dodano pracownika z id: " + generatedKeys.getInt(1));
                 }
             }
-            System.out.println();
         }catch (SQLException e) {
             System.out.println("Nie mozna utworzyc pracownika");
         }
